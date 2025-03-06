@@ -1,0 +1,34 @@
+.projetos h2
+{
+ align-items: center;
+ text-align: center;
+}
+.lista
+{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-block: 1.5rem;
+}
+
+@media (max-width:768px) {
+    .projetos h2
+    {
+        margin-top: 20px;
+        margin-bottom: 150px;
+       align-items: center;
+       justify-content: center;
+    }  
+    
+ }
+ @media (max-width:414px) {
+    .projetos h2
+    {
+        margin-top: 20px;
+        margin-bottom: 70px;
+       align-items: center;
+       justify-content: center;
+    }  
+    
+ }

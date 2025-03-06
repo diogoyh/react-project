@@ -1,0 +1,58 @@
+.svg2
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 85px;
+}
+.svg3, .svg4
+{
+    width: 100px;
+    height: 100px;
+}
+.sobre
+{
+    width: 100%;
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    align-items: center;
+    justify-content: center;
+}
+.textos h2
+{
+  margin-bottom: 1rem;
+}
+
+.bio
+{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+.bio span
+{
+   font-weight: bold;
+}
+.bio strong
+{
+   font-weight: bold;
+   color: var(--red);
+}
+.techs
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+.icones
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
