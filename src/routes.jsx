@@ -18,11 +18,9 @@ function Approutes() {
             <Route path="/sobre" element={<Sobre />} />
             <Route path="/projetos" element={<Projetos />} />
             <Route path="/Contatos" element={<Contatos />} />
-            <Route path="*" element={<Page404 />} />
-          </Route>
-          
-          
-        </Routes>
+            <Route path="*" element={<Home />} />
+          </Route>        
+         </Routes>
    </BrowserRouter>
 
   )
